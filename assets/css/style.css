@@ -146,7 +146,19 @@ nav a.active{color:#a77738}
 .meta,.link,.note{font-size:12px}.link{color:#a77738;transition:letter-spacing .4s var(--ease)}.link:hover{letter-spacing:.08em}
 .service h3{font:600 22px var(--serif)}.service p{font-size:14px}.service>span{display:inline-block;font-size:28px;color:#a77738;transition:transform .6s var(--ease)}.service:hover>span{transform:rotate(12deg) scale(1.2)}
 .service a{font-size:12px}
-.portrait{overflow:hidden;position:relative}.about h2{font:500 40px var(--serif)}
+.portrait {
+display: block;
+width: 220px;
+height: 280px;
+min-height: 280px;
+background-image: url("/Afzal-s-Portfolio/assets/Images/Afzal.png");
+background-color: #d8d0bd;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+border-radius: 12px;
+}
+
 .filters button{transition:.3s;font-size:12px;letter-spacing:.1em}.filters button:hover{border-color:#c39a5d;color:#a77738}
 /* banners */
 .banner{min-height:300px;animation:bz 20s ease-out both}@keyframes bz{from{background-size:122%}to{background-size:104%}}
